@@ -6,6 +6,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 import Home from './Home';
 import Profile from './Profile'
 import Animation from './Animations'
+import SwipeableComp from './SwipeableComp'
 
 const Stack = createStackNavigator();
 
@@ -16,6 +17,7 @@ export default function App() {
         <Stack.Screen name="Home" component={Home} options={{ title: 'Welcome' }}/>
         <Stack.Screen name="Profile" component={Profile}/>
         <Stack.Screen name="Animation" component={Animation}/>
+        <Stack.Screen name="SwipeableComp" component={SwipeableComp}/>
       </Stack.Navigator>
     </NavigationContainer>
   );

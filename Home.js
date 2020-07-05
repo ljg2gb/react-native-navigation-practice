@@ -8,6 +8,7 @@ export default function Home({ navigation }) {
         <Text>Home Screen</Text>
         <Button title={"Go to Profile"} onPress={ () => navigation.navigate('Profile')}/>
         <Button title={"Go to Animation"} onPress={ () => navigation.navigate('Animation')}/>
+        <Button title={"Go to Swipable Example"} onPress={ () => navigation.navigate('SwipeableComp')}/>
       </View>
     );
   }
